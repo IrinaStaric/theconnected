@@ -61,7 +61,7 @@ public class DoorSelectionSteps {
 
     @Then("The user should see details of the selected smart doors")
     public void the_user_should_see_details_of_the_selected_smart_doors() {
-        // Implementing the code to verify that details of the selected smart doors are displayed:
+        // Implementing the code to verify that details of the selected smart doors are displayed
         System.out.println("User sees details of the selected smart doors");
         WebElement productNameElement = driver.findElement(By.xpath("//img[@alt='Smart Door Lock Slim Fingerprint Door Lock with Mobile App slim Smart Door Lock and Fingerprint Smart Lock']"));
         System.out.println("Product Name: " + productNameElement.getText());
