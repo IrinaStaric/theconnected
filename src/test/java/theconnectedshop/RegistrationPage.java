@@ -30,7 +30,6 @@ public class RegistrationPage {
 
     @FindBy(xpath = "//li[@class='Alert__ErrorItem']")
     private WebElement warningField;
-
     public RegistrationPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
